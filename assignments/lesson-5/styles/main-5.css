@@ -1,0 +1,82 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  ____________  /* Declare the base font-family */
+}
+ /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: _____; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+header, nav, main, footer { 
+    text-align: center;
+    max-width: 25px;
+}
+
+header {}
+header h1 {}
+header img {}
+header .subheading {}
+
+nav {}
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: aqua;
+}
+nav ul li a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+main {
+    text-align: center;
+}
+.forecast td, .forecast th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.forecast th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: navy;
+    color: white;
+}
+.town-article {
+    text-align: left;
+}
+table {
+    margin: auto;
+}
+main article img {
+    float: left;
+    padding: 10px;
+}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img {}
+
+footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+}
