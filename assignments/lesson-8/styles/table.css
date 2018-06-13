@@ -1,0 +1,54 @@
+html {
+  font-family: ubuntu, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  box-shadow: 10px 1px 5px grey;
+}
+
+tr:first-child th {
+    padding: 0;
+    color: black;
+    background-color: #7fb9c2;
+    font-size: 20px;
+}
+
+
+#november {
+    background-color: #7fb9c2;
+    color: white;
+}
+caption {
+     background-color: #7fb9c2;
+     box-shadow: 10px 1px 5px grey;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 10px;
+}
+
+th {
+  background-color: #628ca6;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #e7ffed;
+}
+
+tr:nth-child(odd) td {
+  background-color: #e7f0ed;
+}
+
+caption {
+  padding: 10px;
+}
