@@ -1,0 +1,30 @@
+<!DOCYPE HTML>
+<html>
+    <head>
+<script type="text/javascript"
+          src="scripts/rating.js"></script>
+    </head>
+<form>
+    <fieldset>
+        <legend>Applicant Information</legend>
+        <label>Full Name: <input name="name" type="text" pattern="[A-Z0-z]{3}" required></label>
+        <label>Email: <input type="email" name="email" placeholder="123@gmail.com"></label>
+        <label>Phone: <input type="tel" name="phone number" required></label>
+        <label>Zip Code: <input type="number" name="zip code" required></label>
+        <label>Storm Date: <input type="date" name="date" required></label>
+        <label>Storm Type: <input list="storm type" name="storm type">
+            <datalist id="storm type">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+        </label>
+        <label for="rating">Rating (1 to 10)</label>
+		<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		<span id="ratingvalue">5</span><br>
+</form>
+    
+</html>
+    
