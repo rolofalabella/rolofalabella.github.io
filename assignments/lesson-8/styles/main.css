@@ -3,6 +3,7 @@
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
+
 body {
   font-size: 16px;
   font-family: 'roboto', sans-serif;/* Declare the base font-family */
@@ -33,6 +34,7 @@ header .subheading {}
     .navigation.responsive li {background-color: #eee; display: block; width: 100%; margin: 2px 0; border: 1px solid #ddd;}
 */
 }
+
 
 
 nav button {
@@ -82,6 +84,11 @@ nav ul.hide {display: none;}
 }
 main {
     text-align: center;
+}
+
+main p {
+    word-spacing: 5px;
+    line-height: 1.5;
 }
 .highlow td, .highlow th {
     border: 1px solid #ddd;
